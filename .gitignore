@@ -1,0 +1,13 @@
+output/
+output_log/
+output_log_alldataset/
+__pycache__/
+*.py[cod]
+*.so
+*.pth.tar
+*.pth.tar-*
+*.pt
+clip_parameter_names.txt
+matrix.csv
+.DS_Store
+*.code-workspace
