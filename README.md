@@ -79,7 +79,7 @@ By default, `base2new_train.sh` and `base2new_test.sh` evaluate seeds `1/2/3` (C
 To run a single seed: `bash scripts/plkr/base2new_train.sh <DATASET> <CONFIG_NAME> <GPU_ID> <SEED>`  
 or `bash scripts/plkr/base2new_test.sh <DATASET> <CONFIG_NAME> <GPU_ID> <SEED>`.
 
-3. Few-Shot (ImageNet, shots = 1/2/4/8/16; seeds = 1/2/3)
+3. Few-Shot (ImageNet, shots = 1/2/4/8/16)
 
 ```bash
 bash scripts/plkr/few_shot.sh imagenet fewshot_25_15_1_ALL_ep25_batch4_4+4ctx 0
